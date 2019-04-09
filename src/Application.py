@@ -64,7 +64,7 @@ def main():
         Config((640, 640), "Rule 110", 64, Rule110())
     ]
 
-    Application(config[4])
+    Application(config[0])
 
 
 if __name__ == "__main__":
