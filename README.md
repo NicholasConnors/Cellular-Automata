@@ -14,3 +14,6 @@
 
 ## Rule 90
 <img src="../master/Documentation/90.gif" width="200">
+
+## Fluid simulation
+<img src="../master/Documentation/fluid.gif" width="200">
