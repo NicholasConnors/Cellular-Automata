@@ -4,15 +4,13 @@ from Ant import Ant
 from BriansBrain import Brian
 from Rule90 import Rule90
 from Rule110 import Rule110
+from Fluid import Fluid
 
 
 class Application:
     background_colour = (255, 255, 255)
 
     def __init__(self, config):
-        # Initialize pygame
-        pygame.init()
-
         # Initialize self
         self.screen = pygame.display.set_mode(config.screen_size)
         self.clock = pygame.time.Clock()
@@ -54,6 +52,9 @@ class Config:
 
 
 def main():
+    # Initialize pygame
+    pygame.init()
+
     # Start application
 
     config = [
@@ -61,10 +62,11 @@ def main():
         Config((640, 640), "Langston's Ant", 64, Ant()),
         Config((640, 640), "Brian's Brain", 64, Brian()),
         Config((640, 640), "Rule 90", 64, Rule90()),
-        Config((640, 640), "Rule 110", 64, Rule110())
+        Config((640, 640), "Rule 110", 64, Rule110()),
+        Config((640, 640), "Fluid Simulation", 64, Fluid())
     ]
 
-    Application(config[0])
+    Application(config[5])
 
 
 if __name__ == "__main__":
