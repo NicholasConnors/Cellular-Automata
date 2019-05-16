@@ -49,4 +49,4 @@ The y-axis denotes time.
 ## Fluid simulation
 <img src="../master/Documentation/fluid.gif" width="200">
 
-Each cell contains a certain amount of liquid at any time. At each timestep, the liquid will flow downward if possible, or to the left or right. If a cell becomes pressurized, it's liquid can flow upwards. Based off of [this](http://www.jgallant.com/2d-liquid-simulator-with-cellular-automaton-in-unity/).
+Each cell contains a certain amount of liquid at any time. At each timestep, the liquid will flow downward if possible, or to the left or right. If a cell becomes pressurized, its liquid can flow upwards. Based off of [this](http://www.jgallant.com/2d-liquid-simulator-with-cellular-automaton-in-unity/).
